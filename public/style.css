@@ -24,11 +24,13 @@ html, body {
 .home1 {
     position: relative;
     top: 10px;
+    left: 100px;
 }
 
 .home2 {
     position: absolute;
     top: 40px;
+    left: 130px;
 }
 
 .home {
@@ -39,8 +41,40 @@ html, body {
     color: white;
 }
 
+.logoCCVQ {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 45px;
+    height: 75px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 30px;
+    left: 1400px;
+    width: 35px;
+    height: 35px;
+}
+
 .list {
+    margin: 35px;
+    position: relative;
+    bottom: 15px;
+    right: 300px;
     font-family: 'Inter';
     color: white;
     display: inline-block;
+    font-size: 20px;
+}
+
+.parallelogram {
+	width: 350px;
+	height: 100px;
+    position: relative;
+    bottom: 50px;
+    right: 45px;
+    z-index: -1;
+	transform: skew(40deg);
+	background: black;
 }
