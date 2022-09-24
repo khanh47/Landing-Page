@@ -1,8 +1,8 @@
-import './Navbar.css'
+import './style.css'
 
 const Navbar = () => {
   return (
-    <div class="header">
+    <header class="header">
       <div class="header_navbar">
         <div class="home">
           <h1 class="home1">CUỘC CHIẾN</h1>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <li class="list">Hỗ trợ</li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };
 
