@@ -2,7 +2,7 @@ import './style.css'
 
 const Footer = () => {
   return (
-    <header class="header">
+    <footer class="footer">
       <div class="grid">
         <div class="grid__row">
             <div class="grid__column-2-4">
@@ -11,7 +11,11 @@ const Footer = () => {
                 <ul class="footer-list">
                   <li class="footer-item">
                     <a href="" class="footer-item__link">0814516068 - Thầy Hoàng</a>
+                  </li>
+                  <li class="footer-item">
                     <a href="" class="footer-item__link">cuocchienvuongquyenltv@gmail.com</a>
+                  </li>
+                  <li class="footer-item">
                     <a href="" class="footer-item__link">2 Lê Quý Đôn, Tân Hiệp, Biên Hòa, Đồng Nai</a>
                   </li>
                 </ul>
@@ -21,7 +25,7 @@ const Footer = () => {
             </div>
         </div>
       </div>
-    </header>
+    </footer>
   );
 };
 
