@@ -1,4 +1,9 @@
 .footer {
+    background-color: black;
+    background-image: url("bgCCVQ.png");
+    height: 450px;
+    background-size: 100% 100%;
+    color: white;
     bottom: 0;
 }
 
@@ -8,8 +13,30 @@
     margin: 0 auto;
 }
 
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
 .grid__column-2-4 {
     padding-left: 5px;
     padding-right: 5px;
-    width: 33%;
+    width: 30%;
+}
+
+.footer-item__link {
+    font: Inter;
+    color: white;
+    text-decoration: none
+}
+
+.footer__heading {
+    text-align: center;
+}
+
+.logoCCVQ {
+    height: 50px;
+    width: 1    00px;
 }
