@@ -23,11 +23,6 @@ body {
   top: 0;
 }
 
-.header_navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
 .home1 {
   position: relative;
   top: 10px;
@@ -63,12 +58,16 @@ body {
   height: 35px;
 }
 
+.header_navbar {  
+  display: flex;
+  justify-content: space-between;
+}
+
 .list {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-weight: 700;
-  margin: 35px;
+  margin: 20px 35px;
   position: relative;
-  bottom: 15px;
   right: 300px;
   color: white;
   display: inline-block;

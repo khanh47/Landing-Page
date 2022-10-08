@@ -1,10 +1,22 @@
-.footer {
-    background-color: black;
-    background-image: url("bgCCVQ.png");
-    height: 450px;
-    background-size: 100% 100%;
-    color: white;
+footer {
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.bg-image {
+    position: absolute;
+    background: url(/src/images/bgCCVQ.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 500px;
+    width: 100%;
     bottom: 0;
+    margin: auto;
+    z-index: -1;
 }
 
 .grid {
@@ -13,9 +25,26 @@
     margin: 0 auto;
 }
 
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width:1023px) {
+    .wide {
+        width: 644px;
+    }
+}
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 984px;
+    }
+}
+
 .grid__row {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
     margin-left: -5px;
     margin-right: -5px;
 }
@@ -28,15 +57,53 @@
 
 .footer-item__link {
     font: Inter;
+    display: flex;
     color: white;
     text-decoration: none
 }
 
+.footer-list {
+    list-style-type: none;
+}
+
 .footer__heading {
+    color: white;
     text-align: center;
 }
 
-.logoCCVQ {
+.logoCCVQnew {
     height: 50px;
-    width: 1    00px;
+    width: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__row {
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+input[type= text] {
+    padding: 8px 10px;
+    width: 200px;
+    display: flex;
+    flex-basis: 20%;
+    background: rgba(189, 185, 185, 0.7);
+    border-radius: 15px;
+    backdrop-filter: blur(75px);
+}
+
+.btn {
+    width: 70px;
+    height: 20px;
+    background: rgba(200, 61, 61, 0.6);
+    border-radius: 10px;
+}
+
+p {
+    color: white;
 }
