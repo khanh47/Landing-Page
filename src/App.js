@@ -1,12 +1,12 @@
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
-import "./index.css"
+import About from "./components/About"
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div class="test"></div>
+      <About />
       <Footer />
     </div>
   );
