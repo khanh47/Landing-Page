@@ -1,29 +1,7 @@
 footer {
   width: 100%;
   position: relative;
-  height: 500px;
   bottom: 0;
-}
-
-.bg-image {
-  position: absolute;
-  background: url(./images/bgCCVQ.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 500px;
-  width: 100%;
-  bottom: 0;
-  margin: auto;
-  z-index: -1;
-}
-
-.grid {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 /* Tablet - PC low resolution */
@@ -40,20 +18,47 @@ footer {
   }
 }
 
-.grid__row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.bg-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(20%);
+  -webkit-filter: blur(5px);
+  height: 500px;
   width: 100%;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin: 0;
+  z-index: -1;
 }
 
-.grid__column-2-3 {
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 30%;
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 50px;
+  margin-top: 100px;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+}
+
+.left .content .follow {
+  margin: 20px 0 0 0;
+  color: white;
+}
+
+.left .content {
+  display: flex;
+  margin: 80px;
+}
+
+.social {
+  width: 35px;
+  height: 40px;
+  padding: 0 2px;
+  text-align: center;
 }
 
 .footer-item__link {
@@ -75,6 +80,7 @@ footer {
 .logoCCVQnew {
   height: 50px;
   width: 100px;
+  margin-left: 100px;
 }
 
 form {
@@ -118,3 +124,4 @@ p {
   width: 30px;
   height: 40px;
 }
+

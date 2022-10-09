@@ -1,4 +1,5 @@
 import './style.css'
+import search from './images/search.png'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
             <h1 class="home2">VƯƠNG QUYỀN</h1>
             <img class="logoCCVQ" src="logoCCVQ.png" alt="logoCCVQ" />
           </div>
-          <img class="searchIcon" src="searchIcon.png" alt="searchIcon" />
+          <img class="searchIcon" src={search} alt="search" />
         </div>
         <ul class="header_navbar_list">
           <li class="list">Giới thiệu</li>

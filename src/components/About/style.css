@@ -1,5 +1,5 @@
 body {
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 
@@ -9,20 +9,34 @@ body {
 }
 
 .grid__row {
-  margin: 200px auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: -4px;
+  margin-right: -4px;
 }
 
-.grid__column-2-3 {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin: auto;
-    width: 25%;
+.col {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-.grid__column-2-7 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 50%;
+.l-1,
+.l-2 {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.l-1 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.l-2 {
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 
 /* Tablet - PC low resolution */
@@ -58,4 +72,3 @@ body {
   height: 100%;
   filter: brightness(40%);
 }
-

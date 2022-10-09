@@ -8,14 +8,14 @@ function About() {
       <img src={bgimg} alt="bg-img" class="bg-img"></img>
       <div class="grid">
         <div class="grid__row">
-          <div class="grid__column-2-3">
+          <div class="col l-1">
             <h1 class="h1">CUỘC CHIẾN VƯƠNG QUYỀN</h1>
             <p class="p">
               Là một cuộc thi học thuật được tổ chức lần đầu vào năm 2017 có
               format giống với Đường lên đỉnh Olympia.
             </p>
           </div>
-          <div class="grid__column-2-7">
+          <div class="col l-2">
             <img src={img1} alt="img1" class="img1"></img>
           </div>
         </div>
