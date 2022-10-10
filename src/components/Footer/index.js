@@ -7,13 +7,12 @@ import tiktok from "./images/tiktok.png";
 import youtube from "./images/youtube.png";
 import facebook from "./images/facebook.png";
 import bgCCVQ from "./images/bgCCVQ.png";
-import { makeStyles } from "@mui/styles";
 
 const Footer = () => {
   return (
     <body>
       <footer class="footer">
-        <img src={bgCCVQ} class="bg-image" />
+        <img src={bgCCVQ} class="bg-image"/>
         <div class="main-content">
           <div class="left box">
             <img src={logoCCVQnew} alt="logoCCVQnew" class="logoCCVQnew" />
