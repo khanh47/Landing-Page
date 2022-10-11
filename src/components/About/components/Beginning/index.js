@@ -5,7 +5,7 @@ import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
 import img4 from "./images/img4.png";
 
-function About() {
+function Beginning() {
   return (
     <body>
       <div class="grid wide">
@@ -58,4 +58,4 @@ function About() {
   );
 }
 
-export default About;
+export default Beginning;
