@@ -18,9 +18,15 @@ const Footer = () => {
           <div class="content">
             <p>Theo dõi tại:</p>
             <div class="follow">
-              <img src={facebook} alt="facebook" class="social" />
-              <img src={tiktok} alt="tiktok" class="social" />
-              <img src={youtube} alt="youtube" class="social" />
+              <a href="https://www.facebook.com/ccvqltv">
+                <img src={facebook} alt="facebook" class="social" />
+              </a>
+              <a href="https://www.tiktok.com/@cuocchienvuongquyen">
+                <img src={tiktok} alt="tiktok" class="social" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCoBcS5EWGstONQdRBKMzjFA/featured">
+                <img src={youtube} alt="youtube" class="social" />
+              </a>
             </div>
           </div>
         </div>
@@ -41,7 +47,10 @@ const Footer = () => {
                 </a>
               </li>
               <li class="footer-item">
-                <a href="" class="footer-item__link">
+                <a
+                  href="https://g.page/chuyenluongthevinhdongnai?share"
+                  class="footer-item__link"
+                >
                   <img src={address} alt="address" class="icon" />2 Lê Quý Đôn,
                   Tân Hiệp, Biên Hòa, Đồng Nai
                 </a>
