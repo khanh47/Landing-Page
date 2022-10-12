@@ -19,6 +19,12 @@ function Beginning() {
           </div>
           <div class="col l-2">
             <img src={img1} alt="img1" class="img1" />
+            <div class="navigation-auto">
+              <div class="auto-btn1" />
+              <div class="auto-btn2" />
+              <div class="auto-btn3" />
+              <div class="auto-btn4" />
+            </div>
             <div class="navigation-manual">
               <label for="radio1" class="manual-btn" />
               <label for="radio2" class="manual-btn" />
@@ -46,12 +52,6 @@ function Beginning() {
           <div class="slide">
             <img src={img4} alt="" class="bg-img" />
           </div>
-        </div>
-        <div class="navigation-auto">
-          <div class="auto-btn1" />
-          <div class="auto-btn2" />
-          <div class="auto-btn3" />
-          <div class="auto-btn4" />
         </div>
       </div>
     </body>
