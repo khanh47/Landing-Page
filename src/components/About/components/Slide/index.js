@@ -20,7 +20,7 @@ import CCVQ2022_8 from "./images/CCVQ2022_8.jpg";
 import CCVQ2022_9 from "./images/CCVQ2022_9.jpg";
 import CCVQ2022_10 from "./images/CCVQ2022_10.jpg";
 
-function About_us() {
+function Slide() {
   return (
     <body>
       <div className="list_images">
@@ -49,4 +49,4 @@ function About_us() {
   );
 }
 
-export default About_us;
+export default Slide;
