@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+*{margin : 0;
+  padding :0;
+  color: #000000;
+}
+
 /* .navbar{
     position: fixed;
     width: 100%;
@@ -44,16 +49,14 @@
 }
 */
 
-/*.mid{
+
+.mid{
     position: absolute;
     width: 1713.74px;
     height: 656px;
     left: 100px;
     top: 2671px;
-
-    font-family: 'Inter';
 }
-*/
 
 .mid ul{
     position:absolute;
@@ -109,4 +112,44 @@
 .navbar--hidden{
     transform: translateY(-136px);
     box-shadow: none;
+}
+
+.ccvq22{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1841px;
+    height: 1101px;
+    left: 33.25px;
+    top: 9459px;
+
+}
+
+.ccvq22 h1{
+    position: absolute;
+    width: 343px;
+    height: 106px;
+    left: 783px;
+    
+    margin-bottom: 46px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 144.02%;
+    
+    align-items: center;
+    text-align: center;
+    
+    color: #FF975C;
+}
+
+.ccvq22 > img{
+    box-sizing: border-box;
+    margin: 40px;
+    border-radius: 36px;
+    border: 0.08px solid #000000;
+    box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
 }
