@@ -1,9 +1,12 @@
 import "./style.css";
-import img1 from "./images/img1.jpg";
-import bgimg from "./images/bgimg.jpg";
-import img2 from "./images/img2.png";
-import img3 from "./images/img3.png";
-import img4 from "./images/img4.png";
+import bgSlide1 from "./images/bgSlide1.jpg";
+import bgSlide2 from "./images/bgSlide2.png";
+import bgSlide3 from "./images/bgSlide3.png";
+import bgSlide4 from "./images/bgSlide4.png";
+import slide1 from "./images/bgSlide1.jpg";
+import slide2 from "./images/bgSlide2.png";
+import slide3 from "./images/bgSlide3.png";
+import slide4 from "./images/bgSlide4.png";
 
 function Beginning() {
   return (
@@ -18,7 +21,20 @@ function Beginning() {
             </p>
           </div>
           <div class="col l-2">
-            <img src={img1} alt="img1" class="img1" />
+            <div class="slides">
+              <div class="slide first">
+                <img src={slide1} alt="" class="slideImg" />
+              </div>  
+              <div class="slide">
+                <img src={slide2} alt="" class="slideImg" />
+              </div>
+              <div class="slide">
+                <img src={slide3} alt="" class="slideImg" />
+              </div>
+              <div class="slide">
+                <img src={slide4} alt="" class="slideImg" />
+              </div>
+            </div>
             <div class="navigation-auto">
               <div class="auto-btn1" />
               <div class="auto-btn2" />
@@ -35,27 +51,37 @@ function Beginning() {
         </div>
       </div>
       <div class="slider">
-        <div class="slides">
+        <div class="bgSlides">
           <input type="radio" name="radio-btn" id="radio1" />
           <input type="radio" name="radio-btn" id="radio2" />
           <input type="radio" name="radio-btn" id="radio3" />
           <input type="radio" name="radio-btn" id="radio4" />
-          <div class="slide first">
-            <img src={bgimg} alt="" class="bg-img" />
+          <div class="slide bgFirst">
+            <img src={bgSlide1} alt="" class="bg-img" />
           </div>
           <div class="slide">
-            <img src={img2} alt="" class="bg-img" />
+            <img src={bgSlide2} alt="" class="bg-img" />
           </div>
           <div class="slide">
-            <img src={img3} alt="" class="bg-img" />
+            <img src={bgSlide3} alt="" class="bg-img" />
           </div>
           <div class="slide">
-            <img src={img4} alt="" class="bg-img" />
+            <img src={bgSlide4} alt="" class="bg-img" />
           </div>
         </div>
       </div>
     </body>
   );
 }
+
+// var counter = 1;
+
+// setInterval(function Auto(){
+//   document.getElementById('radio' + counter).checked = true;
+//   counter++;
+//   if (counter > 4){
+//     counter = 1;
+//   }
+// }, 5000);
 
 export default Beginning;

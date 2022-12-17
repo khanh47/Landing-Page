@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+/* .navbar{
+    position: fixed;
+    width: 100%;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, #000000, #000000), url(image.png);
+    background-color: black;
+    transition: transform 0.5s;
+}
+
+.co-navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 118.46px;
+    margin: auto;
+}
+
+.co-navbar a:hover{
+    color: red;
+    background: white;
+}
+
+.co-navbar > div {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+  }
+.co-navbar a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 116.52%;
+    align-items: center;
+    position: flex;
+    margin-top: 51.32px ;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+*/
+
+/*.mid{
+    position: absolute;
+    width: 1713.74px;
+    height: 656px;
+    left: 100px;
+    top: 2671px;
+
+    font-family: 'Inter';
+}
+*/
+
+.mid ul{
+    position:absolute;
+    width: 804px;
+    height: 438px;
+    left: 100px;
+    top: 2788px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+
+.mid h2{
+    position: absolute;
+    width: 407.36px;
+    height: 73px;
+    left: 298px;
+    top: 2699px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-feature-settings: 'case' on;
+    color: #FF6E00;
+
+}
+
+.mid img{
+    position: absolute;
+    width: 803.74px;
+    height: 583px;
+    left: 1010px;
+    top: 2671px;
+
+    border-radius: 36px;
+}
+
+.navbar--hidden{
+    transform: translateY(-136px);
+    box-shadow: none;
+}
